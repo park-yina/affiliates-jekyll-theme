@@ -1,8 +1,10 @@
 layout: default
+title: "Jekyll"
 permalink: "/categories/Jekyll.html"
 ---
 {% assign jekyll_posts = site.categories.Jekyll %}
 <h2>Jekyll Category</h2>
 <div class="row">
   {% for post in jekyll_posts %}
+  {% include Jekyll.html %}
   {%endfor%}
