@@ -1,8 +1,7 @@
 title: "시선의방"
 email: kln99988@naver.com
 timezone: Asia/Seoul
-baseurl: "https://park-yina.github.io/affiliates-jekyll-theme"
-permalink: "/:title/"
+ccpermalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: 괭시니
