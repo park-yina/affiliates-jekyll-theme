@@ -6,7 +6,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: 괭시니
 paginate: 30
-disqus: 'demowebsite'
+disqus: 'yina-life'
 locale: kr
 lang: kr
 feed_items: 10
