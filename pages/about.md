@@ -2,7 +2,7 @@
 layout: page
 title: 작가의 방
 permalink: "/about/"
-image: "https://dhnews.co.kr/news/data/20200824/p179521701655261_854.jpg"
+image: assets/images/빨간다리.jpg
 ---
 예술고등학교를 졸업하고, 빨간다리에서 글만 쓰던 나에겐 정말 많은 얼굴이 있었다.
 어떤 사람들은 그런 나에게서 늘 금속성의 분노가 느껴진다고 했다.
