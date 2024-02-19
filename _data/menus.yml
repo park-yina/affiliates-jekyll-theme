@@ -21,8 +21,8 @@ footermenu:
 - title: Home
   url: ""
 
-- title: Privacy Policy
-  url: "privacy-policy/"
+- title: 작가의방
+  url: "about/"
 
 - title: Contact
   url: "contact/"
