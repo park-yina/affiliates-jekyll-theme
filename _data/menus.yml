@@ -1,10 +1,10 @@
 # Top Menu
 topmenu:
 
-- title: Home
+- title: 홈화면
   url: ""
 
-- title: About
+- title: 작가의 방(자기소개)
   url: "about/"
 
 - title: Contact

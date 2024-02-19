@@ -1,15 +1,13 @@
 ---
 layout: page
-title: About
+title: 작가의 방
 permalink: "/about/"
-image: assets/images/screenshot.png
+image: "https://dhnews.co.kr/news/data/20200824/p179521701655261_854.jpg"
 ---
-
-This website is a demonstration to see **Affiliates Jekyll theme** in action. 
-
-The theme is compatible with Github pages. This demo is created with Github Pages and hosted with Github. 
-
-Everything is ready for your quick setup: Blog, Categories, About, Privacy Policy, Terms of Use, Contact form, Mailchimp
-
-[Get it here](https://bootstrapstarter.com/jekyll-theme-memoirs/)
+예술고등학교를 졸업하고, 빨간다리에서 글만 쓰던 나에겐 정말 많은 얼굴이 있었다.
+어떤 사람들은 그런 나에게서 늘 금속성의 분노가 느껴진다고 했다.
+구름처럼 부유하는 기대감과 그것들이 무너져내릴 때의 어떤 상실감이 나를 글을 쓰게 만들었다.
+나는 가끔 비행기 모드를 켜는 여행객의 심정으로 글을 쓴다.
+이제 나에게는 이곳이 외국이 되어버릴까 어쩌면 개발 블로그가 나의 모국이 될까 그럼 나의 모국어는 0과 1 뿐일까
+이런 예민함과 불안함을 모두 담은 블로그이다.
 
