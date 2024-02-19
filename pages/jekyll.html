@@ -1,5 +1,12 @@
 ---
-layout: Jekyll
-title: jekyll
-permalink: "/categories/Jekyll"
+title: "Jekyll Category"
+layout: default
+permalink: "/jekyll.html"
 ---
+{% assign jekyll_posts = site.categories.jekyll %}
+<h2>Jekyll Category</h2>
+<ul>
+  {% for post in jekyll_posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
