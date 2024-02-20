@@ -35,6 +35,9 @@
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
   }
+  .nav-item:hover{
+    border-bottom: 2px solid $gray-60;
+  }
 
   .nav-link {
     border: $nav-tabs-border-width solid transparent;
