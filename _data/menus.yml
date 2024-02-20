@@ -7,8 +7,8 @@ topmenu:
 - title: 작가의 방(자기소개)
   url: "about/"
 
-- title: Contact
-  url: "contact/"
+- title: 비밀의방
+  url: "categories/diary"
 
 - title: 개발 블로그 바로가기
   url: https://park-yina.github.io/
@@ -23,9 +23,6 @@ footermenu:
 
 - title: 작가의방
   url: "about/"
-
-- title: Contact
-  url: "contact/"
 
 - title: Download
   url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
