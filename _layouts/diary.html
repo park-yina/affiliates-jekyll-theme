@@ -1,0 +1,12 @@
+---
+layout: default
+title: "일기장"
+permalink: "/categories/diaty.html"
+---
+{% assign jekyll_posts = site.categories.diary %}
+<h2>Jekyll Category</h2>
+<div class="row">
+  {% for post in jekyll_posts %}
+    {% include postbox.html %}
+  {% endfor %}
+</div>
