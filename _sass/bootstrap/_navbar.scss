@@ -14,6 +14,7 @@
 //
 // Provide a static navbar from which we expand to create full-width, fixed, and
 // other navbar variations.
+@import "variables.scss";
 
 .navbar {
   position: relative;
@@ -158,6 +159,7 @@
         .navbar-nav {
           flex-direction: row;
 
+
           .dropdown-menu {
             position: absolute;
           }
@@ -170,6 +172,10 @@
           .nav-link {
             padding-right: $navbar-nav-link-padding-x;
             padding-left: $navbar-nav-link-padding-x;
+            :hover{
+              border-bottom: 2px solid $gray-600;
+
+            }
           }
         }
 
