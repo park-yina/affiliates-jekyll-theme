@@ -35,9 +35,10 @@
 
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
-  }
-  .nav-item:hover{
-    border-bottom: 2px solid $gray-600;
+    :hover{
+      border-bottom: 2px solid $gray-600;
+
+    }
   }
 
   .nav-link {
