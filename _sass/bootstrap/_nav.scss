@@ -35,7 +35,7 @@
 
   .nav-item {
     margin-bottom: -$nav-tabs-border-width;
-    :hover{
+    .nav-link px-3 :hover{
       border-bottom: 2px solid $gray-600;
 
     }
