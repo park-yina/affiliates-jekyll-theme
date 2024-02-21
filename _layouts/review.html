@@ -1,0 +1,17 @@
+---
+layout: default
+title: "기록의 방"
+permalink: "/categories/review.html"
+---
+{% assign jekyll_posts = site.categories.review %}
+<h2>읽고 듣고 써요</h2>
+<div class="row">
+  {% for post in jekyll_posts %}
+    <div class="col-md-4 mb-5">
+      {% include postbox.html %}
+    </div>
+    {% if forloop.index | modulo:3 == 0 %}
+      </div><div class="row">
+    {% endif %}
+  {% endfor %}
+</div>
