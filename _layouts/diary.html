@@ -7,11 +7,8 @@ permalink: "/categories/diary.html"
 <h2>괭시니의 작은 방</h2>
 <div class="row">
   {% for post in jekyll_posts %}
-    <div class="col-md-4 mb-5">
+    <div class="col-md-{{ 12 | divided_by: jekyll_posts.size }}">
       {% include postbox.html %}
     </div>
-    {% if forloop.index | modulo:3 == 0 %}
-      </div><div class="row">
-    {% endif %}
   {% endfor %}
 </div>
