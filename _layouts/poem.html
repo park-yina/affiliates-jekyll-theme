@@ -1,0 +1,14 @@
+---
+layout: default
+title: "시인의 눈"
+permalink: "/categories/poem.html"
+---
+{% assign jekyll_posts = site.categories.poem%}
+<h2>시인의 눈</h2>
+<div class="row">
+  {% for post in jekyll_posts %}
+    <div class="col-md-{{ 12 | divided_by: jekyll_posts.size }}">
+      {% include postbox.html %}
+    </div>
+  {% endfor %}
+</div>
