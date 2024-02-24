@@ -7,8 +7,11 @@ permalink: "/categories/poem.html"
 <h2>시인의 눈</h2>
 <div class="row">
   {% for post in jekyll_posts %}
-    <div class="col-md-{{ 12 | divided_by: jekyll_posts.size }}">
+    <div class="col-md-4 mb-5">
       {% include postbox.html %}
     </div>
+    {% if forloop.index | modulo:3 == 0 %}
+      </div><div class="row">
+    {% endif %}
   {% endfor %}
 </div>

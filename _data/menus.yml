@@ -24,6 +24,6 @@ footermenu:
 - title: 묘사의 눈
   url: "categories/describe"
 
-- title: Download
-  url: https://bootstrapstarter.com/template-affiliates-bootstrap-jekyll/  
+- title: 시인의 방
+  url: "categories/poem"
   external: true
